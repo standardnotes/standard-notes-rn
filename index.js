@@ -1,10 +1,10 @@
 import { NativeModules } from 'react-native';
 
 const SNReactNative = {
-  exitApp: function() {
+  exitApp: function () {
     NativeModules.SNReactNative.exitApp();
-  }
-  MANUFACTURER: NativeModules.MANUFACTURER;
+  },
+  MANUFACTURER: NativeModules.MANUFACTURER,
 };
 
 export default SNReactNative;

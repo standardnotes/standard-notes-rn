@@ -1,6 +1,6 @@
 declare module 'standard-notes-rn' {
   const SNReactNative: {
-    exitApp: () => void
+    exitApp: () => void;
     MANUFACTURER: string;
   };
 
