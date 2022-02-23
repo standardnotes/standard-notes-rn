@@ -3,8 +3,8 @@
 ## Setup
 
 ```bash
-npm install standard-notes-rn --save
-react-native link standard-notes-rn
+npm install @standardnotes/react-native-utils --save
+react-native link @standardnotes/react-native-utils
 ```
 
 #### iOS
@@ -15,12 +15,12 @@ react-native link standard-notes-rn
 #### Android
 * In the settings.gradle
   ```
-    include ':standard-notes-rn', ':app'
-    project(':standard-notes-rn').projectDir = new File(rootProject.projectDir, '../node_modules/standard-notes-rn/android')
+    include ':@standardnotes/react-native-utils', ':app'
+    project(':@standardnotes/react-native-utils').projectDir = new File(rootProject.projectDir, '../node_modules/@standardnotes/react-native-utils/android')
   ```
 * In the build.gradle
   ```
-    compile project(':standard-notes-rn')
+    compile project(':@standardnotes/react-native-utils')
   ```
 * In MainApplication.java
   ```
@@ -39,7 +39,7 @@ react-native link standard-notes-rn
 ## Usage
 
 ```javascript
-import SNReactNative from 'standard-notes-rn';
+import SNReactNative from '@standardnotes/react-native-utils';
 ...
 SNReactNative.exitApp();
 ...

@@ -1,5 +1,5 @@
 {
-  "name": "standard-notes-rn",
+  "name": "@standardnotes/react-native-utils",
   "version": "1.0.1",
   "description": "React Native utilities for Standard Notes",
   "homepage": "https://github.com/standardnotes/standard-notes-rn",
